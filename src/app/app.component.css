@@ -1,4 +1,6 @@
-.example-container {
+@import url('https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css');
+
+.container {
     width: 100%;
   }
   
@@ -7,19 +9,7 @@
   .cardContainer {
     padding: 2px 16px;
   }
-  
-  .poiPicture {
-    height: 85vh;
-  }
-  
-  .card:hover {
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Card Exterior Size */
-  
-  /* | MEDIA QUERIES | */
-  /* Desktop PC & Responsive */
+
   .card {
     box-shadow: 2px 4px 20px black;
     border: 1px solid whitesmoke;

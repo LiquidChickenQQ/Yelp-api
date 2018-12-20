@@ -1,13 +1,12 @@
-<!--The content below is only a placeholder and can be replaced.-->
 
-<div class="jumbo" style="text-align:center">
+<div style="text-align:center">
   <br />
   <h1 style="color:rgb(0, 0, 0)">
     {{ title }}!
   </h1>
-  <div class="example-container">
-    <form [formGroup]="myForm">
-      Value: {{ myForm.value | json}}
+  <div class="container">
+    <form [formGroup]="myForm" className="form">
+      <!-- Value: {{ myForm.value | json}} -->
       <hr>
       <select placeholder="Select" formControlName="price">
         <option value=1>$</option>
